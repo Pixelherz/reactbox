@@ -1,0 +1,45 @@
+{
+  "name": "@pixelherz/reactbox",
+  "version": "1.0.0",
+  "description": "React utilities we frequently use in our projects.",
+  "files": [
+    "dist",
+    "scroll-distance-observer.js"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pixelherz/reactbox.git"
+  },
+  "keywords": [
+    "reactjs",
+    "utils",
+    "toolkit"
+  ],
+  "author": {
+    "name": "Pixelherz GmbH",
+    "email": "mail@pixelherz.com",
+    "url": "https://pixelherz.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pixelherz/reactbox/issues"
+  },
+  "homepage": "https://github.com/Pixelherz/reactbox#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "react": "^16.13.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
+}
