@@ -20,5 +20,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Module `ScrollDistanceObserver`
 
 [unreleased]: https://github.com/Pixelherz/reactbox/compare/v1.1.0...HEAD
-[v1.1.0]: https://github.com/Pixelherz/reactbox/compare/v1.0.0...1.1.0
+[v1.1.0]: https://github.com/Pixelherz/reactbox/compare/v1.0.0...v1.1.0
 [v1.0.0]: https://github.com/Pixelherz/reactbox/releases/tag/v1.0.0
