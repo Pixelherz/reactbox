@@ -39,6 +39,30 @@ export default const MyComp = ({}) => {
 }
 ```
 
+### ScrollOffsetObserver
+
+#### Properties
+
+`isActive`: Boolean, de-/activates the observer. 
+
+`onScrollOffsetYUpdate`: Callback function. The current scrollY offset is passed as argument. 
+
+```js
+import ScrollOffsetObserver from '@pixelherz/reactbox/scroll-offset-observer'
+
+export default const MyComp = ({}) => {
+  const [ isObserverActive, setIsObserverActive ] = useState(true)
+  return (
+    <ScrollOffsetObserver
+      isActive
+      onScrollOffsetYUpdate={scrollOffsetY => {
+        console.log(`scrollY offset is ${scrollOffsetY}px`)
+      }}
+    />
+  )
+}
+```
+
 
 ## Development
 
