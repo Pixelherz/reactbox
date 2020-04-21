@@ -5,10 +5,8 @@ Our little [React](https://reactjs.org/) toolbox
 ## Install
 
 ```sh
-$ npm i @pixelherz/reactbox
+$ npm install @pixelherz/reactbox
 ```
-
-**Note:** The package is hosted on [GitHub](https://github.com/). To install the package you need to authenticate to GitHub Packages and add a `.pmrc` to your project. Follow the instructions from the [GitHub Help section "Installing a package"](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages#installing-a-package). 
 
 
 ## Modules
