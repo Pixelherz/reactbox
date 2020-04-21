@@ -74,6 +74,12 @@ export default const MyComp = ({}) => {
 $ npm run build
 ```
 
+### Publish
+
+```sh
+$ npm publish
+```
+
 ### Versioning
 
 We use [Semantic Versioning](https://semver.org/).
