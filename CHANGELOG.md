@@ -7,9 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v1.1.2] - 2020-04-21
+
 ### Added
 
 - Readme: add instructions for installation
+
+### Fixed
+
+- package.json: add `scroll-offset-observer.js` to files
 
 ## [v1.1.1] - 2020-04-20
 
@@ -29,7 +35,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Module `ScrollDistanceObserver`
 
-[unreleased]: https://github.com/Pixelherz/reactbox/compare/v1.1.1...HEAD
+[unreleased]: https://github.com/Pixelherz/reactbox/compare/v1.1.2...HEAD
+[v1.1.2]: https://github.com/Pixelherz/reactbox/compare/v1.1.1...v1.1.2
 [v1.1.1]: https://github.com/Pixelherz/reactbox/compare/v1.1.0...v1.1.1
 [v1.1.0]: https://github.com/Pixelherz/reactbox/compare/v1.0.0...v1.1.0
 [v1.0.0]: https://github.com/Pixelherz/reactbox/releases/tag/v1.0.0

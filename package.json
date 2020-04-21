@@ -4,7 +4,8 @@
   "description": "React utilities we frequently use in our projects.",
   "files": [
     "dist",
-    "scroll-distance-observer.js"
+    "scroll-distance-observer.js",
+    "scroll-offset-observer.js"
   ],
   "scripts": {
     "build": "webpack",
