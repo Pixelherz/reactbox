@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v1.1.4] - 2020-08-03
+
+### Changed
+
+- Update dependencies
+
 ## [v1.1.3] - 2020-04-21
 
 ### Added
@@ -45,7 +51,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Module `ScrollDistanceObserver`
 
-[unreleased]: https://github.com/Pixelherz/reactbox/compare/v1.1.3...HEAD
+[unreleased]: https://github.com/Pixelherz/reactbox/compare/v1.1.4...HEAD
+[v1.1.4]: https://github.com/Pixelherz/reactbox/compare/v1.1.3...v1.1.4
 [v1.1.3]: https://github.com/Pixelherz/reactbox/compare/v1.1.2...v1.1.3
 [v1.1.2]: https://github.com/Pixelherz/reactbox/compare/v1.1.1...v1.1.2
 [v1.1.1]: https://github.com/Pixelherz/reactbox/compare/v1.1.0...v1.1.1
