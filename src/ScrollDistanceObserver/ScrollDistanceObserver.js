@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 
 const ScrollDistanceObserver = ({
   onScrollDistYUpdate,
-  isActive,
-  intervalDelay,
+  isActive = true,
+  intervalDelay = 250,
 }) => {
   let initialScrollY = 0
   let observerInterval = null
@@ -38,11 +38,6 @@ ScrollDistanceObserver.propTypes = {
   onScrollDistYUpdate: PropTypes.func.isRequired,
   isActive: PropTypes.bool,
   intervalDelay: PropTypes.number,
-}
-
-ScrollDistanceObserver.defaultProps = {
-  isActive: true,
-  intervalDelay: 250,
 }
 
 export default ScrollDistanceObserver

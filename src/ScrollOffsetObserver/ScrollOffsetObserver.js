@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 
 const ScrollOffsetObserver = ({
   onScrollOffsetYUpdate,
-  isActive,
-  intervalDelay,
+  isActive = true,
+  intervalDelay = 250,
 }) => {
   let observerInterval = null
   let scrollOffsetY = 0
@@ -34,11 +34,6 @@ ScrollOffsetObserver.propTypes = {
   onScrollOffsetYUpdate: PropTypes.func.isRequired,
   isActive: PropTypes.bool,
   intervalDelay: PropTypes.number,
-}
-
-ScrollOffsetObserver.defaultProps = {
-  isActive: true,
-  intervalDelay: 250,
 }
 
 export default ScrollOffsetObserver
