@@ -20,7 +20,10 @@ const config = {
 }
 
 const output = {
-  libraryTarget: 'commonjs2',
+  library: {
+    name: '@pixelherz/reactbox',
+    type: 'commonjs2',
+  },
   globalObject: 'this',
 }
 
@@ -33,7 +36,7 @@ const scrollDistanceObserverConfig = Object.assign({}, config, {
   output: Object.assign({}, output, {
     path: path.resolve(__dirname, 'dist/ScrollDistanceObserver'),
     filename: 'ScrollDistanceObserver.js',
-    library: '@pixelherz/reactbox/scroll-distance-observer',
+    library: '_pixelherz_reactbox_scroll_distance_observer',
   }),
 })
 
@@ -46,7 +49,7 @@ const scrollOffsetObserverConfig = Object.assign({}, config, {
   output: Object.assign({}, output, {
     path: path.resolve(__dirname, 'dist/ScrollOffsetObserver'),
     filename: 'ScrollOffsetObserver.js',
-    library: '@pixelherz/reactbox/scroll-offset-observer',
+    library: '_pixelherz_reactbox_scroll_offset_observer',
   }),
 })
 
