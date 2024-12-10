@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v2.0.0] - 2024-12-10
+
 ### Changed
 
 - Replace defaultProps with JavaScript default parameters
@@ -56,7 +58,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Module `ScrollDistanceObserver`
 
-[unreleased]: https://github.com/Pixelherz/reactbox/compare/v1.1.4...HEAD
+[unreleased]: https://github.com/Pixelherz/reactbox/compare/v2.0.0...HEAD
+[v2.0.0]: https://github.com/Pixelherz/reactbox/compare/v1.1.4...v2.0.0
 [v1.1.4]: https://github.com/Pixelherz/reactbox/compare/v1.1.3...v1.1.4
 [v1.1.3]: https://github.com/Pixelherz/reactbox/compare/v1.1.2...v1.1.3
 [v1.1.2]: https://github.com/Pixelherz/reactbox/compare/v1.1.1...v1.1.2
