@@ -32,13 +32,13 @@
   },
   "homepage": "https://github.com/Pixelherz/reactbox#readme",
   "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "react": "^16.13.1",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "react": "^18",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
   },
   "dependencies": {
     "prop-types": "^15.7.2"
