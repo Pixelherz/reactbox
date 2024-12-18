@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "react": "^18",
-    "webpack": "^4.47.0",
+    "webpack": "^5.97.1",
     "webpack-cli": "^4.10.0"
   },
   "dependencies": {
